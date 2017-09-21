@@ -17,6 +17,7 @@ var counter=0;
 app.get('/counter',function (req,res){
  counter=counter + 1;
  res.send(counter , toString());
+});
 
 app.get('/article-three',function (req,res){
     res.send('article 3 is resquested and it will be served');
